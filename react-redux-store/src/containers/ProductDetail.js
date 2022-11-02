@@ -44,7 +44,7 @@ const ProductDetails = () => {
                 <div className="column rp">
                     <h1 id="deet-text">{title}</h1>
                     <h2>
-                        <a className="ui teal tag label">${price}</a>
+                        <a className="ui teal tag label">${price.toFixed(2)}</a>
                     </h2>
                     <h3 className="ui brown header" id="block-cat">{category.toUpperCase()}</h3>
                     <p id="deet-text">{description}</p>

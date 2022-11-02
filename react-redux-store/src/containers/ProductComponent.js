@@ -16,7 +16,7 @@ const ProductComponent = () => {
             </div>
             <div className="content">
               <div className="header">{title}</div>
-              <div className="description">${price}</div>
+              <div className="description">${price.toFixed(2)}</div>
               <div className="description">{category}</div>
             </div>
           </div>
