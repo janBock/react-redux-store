@@ -5,4 +5,4 @@ This is Project 1 in a series of Projects to document my journey with React and 
 
 
 ## 🛠 Skills - Frontend Development
-Javascript, React, HTML, CSS, SemanticUI, Axios 
+Javascript, React, Redux, HTML, CSS, SemanticUI, Axios 
