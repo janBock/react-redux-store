@@ -41,3 +41,19 @@
   margin-top: 25px;
 }
 
+#image-deet {
+  height: 300px;
+  width: auto;
+  margin: auto;
+}
+
+#block-cat {
+  height: 50px;
+  line-height: 0px;
+}
+
+#deet-text {
+  text-align: start;
+  padding: 15px;
+}
+

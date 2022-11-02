@@ -39,15 +39,15 @@ const ProductDetails = () => {
             <div className="ui vertical divider">AND</div>
             <div className="middle aligned row">
                 <div className="column lp">
-                    <img className="ui fluid image" src={image}/>
+                    <img className="ui fluid image" id="image-deet" src={image}/>
                 </div>
                 <div className="column rp">
-                    <h1>{title}</h1>
+                    <h1 id="deet-text">{title}</h1>
                     <h2>
                         <a className="ui teal tag label">${price}</a>
                     </h2>
-                    <h3 className="ui brown block header">{category}</h3>
-                    <p>{description}</p>
+                    <h3 className="ui brown header" id="block-cat">{category.toUpperCase()}</h3>
+                    <p id="deet-text">{description}</p>
                     <div className="ui vertical animated button" tabIndex="0">
                         <div className="hidden content">
                             <i className="shop icon"></i>
